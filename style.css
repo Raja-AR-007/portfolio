@@ -390,7 +390,7 @@ nav .fa-solid{
     #header{
         /* background-image: none; */
         background-image: url(images-1/backgroung_img_mobile.png);
-        background-color:rgb(97, 102, 26);
+        /* background-color:rgb(97, 102, 26); */
         background-attachment: none;
     }
     /* nav ul li{
@@ -398,7 +398,7 @@ nav .fa-solid{
     } */
     .header-text{
         margin-top: 100%;
-        font-size:18px;
+        font-size:20px;
     }
     .header-text h1{
         font-size: 30px;
