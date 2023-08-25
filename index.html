@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0fd4b5421f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="side_menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#additional">Additional</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <h1 class="name_title">Portfolio.</h1>
+            <div class="header-text">
+                <p>Coding Enthusiast and <br>Software Development Aspirant</p>
+                <h1>Hi, I'm <span>Raja</span> <br> From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------about--------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="images-1/user.jpg" alt=""></div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="about_para">I am a MCA Gradute Student at Nandha Engineering College. 
+                        I enjoy problem-solving and coding. Always strive to bring 100% to the work I do. 
+                        I have used technologies like Java, Python, SQL, HTML, CSS, Javascript, php.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('education')">Education</p>
+                        <p class="tab-links" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('Languages')">Languages</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li>Nandha Engineering College, Erode — <b>MCA</b> 
+                                <br><b>OCT 2021 - MAY 2023</b>
+                                <br>Anna University with <i>82.08%</i>
+                            </li>
+                            <li>Kongu Arts and Science College (Autonomous), Erode — <b>B.Sc. (CS)</b>
+                                <br><b>JUN 2018 - MAY 2021</b>
+                                <br>Bharathiar  University with <i>65.97%</i>
+                            </li>
+                            <li>Navarasam Matriculation & Higher Secondary School, Erode — <b>HSC</b> 
+                                <br><b>JUN 2016 - MAY 2017</b>
+                                <br>State Board with <i>72.25 %</i>
+                            </li>
+                            <li>Navarasam Matriculation & Higher Secondary School, Erode — <b>SSLC</b> 
+                                <br><b>JUN 2014 - MAY 2015</b>
+                                <br>State Board with <i>82 %</i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li> <img src="images-1/icons8-java-48.png" alt=""> &NonBreakingSpace; Java Programming</li>
+                            <li> <img src="images-1/icons8-python-48.png" alt=""> &NonBreakingSpace; Ptyhon Programming</li>
+                            <li> <img src="images-1/icons8-database-administrator-48.png" alt=""> &NonBreakingSpace; Sql Database</li>
+                            <li> <img src="images-1/icons8-html-5-48.png" alt=""> &NonBreakingSpace; HTML</li>
+                            <li> <img src="images-1/icons8-css-48.png" alt=""> &NonBreakingSpace; CSS </li>
+                            <li> <img src="images-1/icons8-javascript-48.png" alt=""> &NonBreakingSpace; Javascript </li>
+                            <li> <img src="images-1/icons8-php-40.png" alt=""> &NonBreakingSpace; PHP </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Languages">
+                        <ul>
+                            <li>Tamil</li>
+                            <li>English</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- --------------------------------Additional---------------------->
+<div id="additional">
+    <div class="container">
+        <h1 class="sub-title" id="skills2">Additional</h1>
+        <ul>
+            <li class="extra"> Java certified by Sololearn.</li>
+            <li class="extra"> “Ethical Hacking” Workshop attended in Kongu Arts and Science College.</li>
+            <li class="extra"> “Project Layout” Participated in Nandha Engineering College.</li>
+            <li class="extra"> Attended “4th International Conference” at Vivekanandha College of Arts and Science For Womens and Presented My Final Year Project.</li>
+            <li class="extra"> Got first place in “Project Expo of Innovation Day” in Nandha Engineering College. </li>
+        </ul>
+    </div>
+</div>
+<!----------------------------Project-------------------------------->
+
+<!-- --------------------contact----------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row2">
+            <div class="contact_left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> rajasmartfdr@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9578522875</p>
+                <div class="social_icons">
+                    <a href="https://www.facebook.com/rajaking.fdr"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://github.com/Raja-AR-007"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.linkedin.com/in/raja-a-5840b0232"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images-1/my-cv.pdf" download class="btn2">Download CV </a>
+            </div>
+            <!-- <div class="contact_right">
+                <form>
+                    <input  type="text" name="name" placeholder="Your Name" required>
+                    <input  type="text" name="email" placeholder="Your Email" required>
+                    <textarea  name="textarea1" placeholder="Your Message" rows="6" required></textarea>
+                    <button class="btn" type="submit">Submit</button>
+                </form>
+            </div> -->
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Raja. Made by myself.</p>
+    </div>
+</div>
+
+<script>
+    
+    var sideMenu=document.getElementById("side_menu");
+    var tabLinks=document.getElementsByClassName("tab-links");
+    var tabContents=document.getElementsByClassName("tab-contents");
+    function openTab(tabName){
+        for(tabLink of tabLinks){
+            tabLink.classList.remove("active-link");
+        }
+        for(tabContent of tabContents){
+            tabContent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabName).classList.add("active-tab");
+        slideMenu.style.right="-200px";
+    
+    }
+    function openMenu(){
+        sideMenu.style.right="0px";
+    }
+    function closeMenu(){
+        sideMenu.style.right="-200px";
+    }
+    
+
+</script>
+</body>
+</html>
