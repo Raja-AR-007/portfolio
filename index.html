@@ -131,7 +131,6 @@
 
 <script>
     
-    var sideMenu=document.getElementById("side_menu");
     var tabLinks=document.getElementsByClassName("tab-links");
     var tabContents=document.getElementsByClassName("tab-contents");
     function openTab(tabName){
@@ -145,15 +144,16 @@
         document.getElementById(tabName).classList.add("active-tab");
         slideMenu.style.right="-200px";
     
-    }
-    function openMenu(){
-        sideMenu.style.right="0px";
-    }
-    function closeMenu(){
-        sideMenu.style.right="-200px";
-    }
-    
-
+        }
+</script>
+<script>
+var sideMenu=document.getElementById("side_menu");
+function openMenu(){
+    sideMenu.style.right="0px";
+}
+function closeMenu(){
+    sideMenu.style.right="-200px";
+}
 </script>
 </body>
 </html>
