@@ -127,7 +127,7 @@ nav ul li a:hover::after{
     font-weight: 600;
     font-size: 20px;
     cursor:pointer;
-    /* position: relative; */
+    position: relative;
 }
 .tab-links::after{ 
     content: '';
@@ -419,7 +419,7 @@ nav .fa-solid{
         background: none;
     } 
     nav ul{
-        background-color:#7090aa;
+        background-color:white;
         position: fixed;
         width: 160px;
         /* overflow: hidden; */
