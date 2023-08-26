@@ -408,6 +408,9 @@ nav .fa-solid{
     .header-text h1{
         font-size: 30px;
     }
+    .header-text span{
+        color: #1877c5;
+    }
     nav .fa-solid{
         display: block;
         color: rgb(87, 53, 53);
