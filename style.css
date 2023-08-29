@@ -328,13 +328,13 @@ nav ul li a:hover::after{
 }
 .social_icons i{
     font-size: 30px;
-    color: #ff004f;
+    color: orange;
     margin-right: 15px;
     margin-bottom: 30px;
     transition: color 0.5s ,transform 0.5s;
 }
 .social_icons i:hover{
-    color: #6a7781;
+    color: light orange;
     transform:translateY(-5px)
 }
 .contact_left .btn2{
@@ -342,7 +342,7 @@ nav ul li a:hover::after{
     font-size: 5px;
     padding: 20px 40px;
     font-size: 30px;
-    background-color: #ff0051;
+    background-color: orange;
     border-radius: 10px;
     text-decoration: none;
     display: inline-block;
